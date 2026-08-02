@@ -42,18 +42,18 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": fals,
     "circle-walk": {
-      "enabled": true,
+      "enabled": fals,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": fals,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": fals,
       "interval": 10000
     }
   },
@@ -65,12 +65,12 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": fals,
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": fals,
+    "place-night": fals
   },
   "discord": {
     "enabled": false,
